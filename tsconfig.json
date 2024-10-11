@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {},
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es2021",
+    "allowJs": true,
+    "lib": [
+      "es2020",
+      "DOM"
+    ],
+    "types": ["@types/node"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["./src"],
+  "exclude": ["**/node_modules"]
+}
